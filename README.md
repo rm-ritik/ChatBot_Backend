@@ -19,9 +19,9 @@
   Create a ```.env``` file in the root directory.
   Add the following configuration variables to it:
   ```
-  OPENAI_API_KEY="Your OpenAI API Key goes here"
-  CAL_API_KEY="Your CAL API Key goes here"
-  EVENT_TYPE_ID= #here the event type id corresponding to 60 minute events
+    OPENAI_API_KEY="Your OpenAI API Key goes here"
+    CAL_API_KEY="Your CAL API Key goes here"
+    EVENT_TYPE_ID= #here the event type id corresponding to 60 minute events
   ```
 
 5. Apply migrations
