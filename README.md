@@ -28,4 +28,4 @@
   ```python manage.py migrate```
 
 6. Run the Deployment Server
-  ```python manage.py runserver
+  ```python manage.py runserver```
