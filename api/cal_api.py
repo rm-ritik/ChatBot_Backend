@@ -7,7 +7,7 @@ from .models import BookingRequest
 
 CAL_API_BASE = "https://api.cal.com/v1"
 CAL_API_KEY = os.getenv("CAL_API_KEY")
-EVENT_TYPE_ID = 2490867
+EVENT_TYPE_ID = os.getenv("EVENT_TYPE_ID")
 
 def parse_flexible_time(date_str: str, time_str: str) -> datetime:
     """
